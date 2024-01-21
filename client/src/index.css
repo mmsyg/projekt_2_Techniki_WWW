@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  background-image: linear-gradient(225deg, rgba(25, 136, 247, 0.21) 0%, rgba(247, 25, 136, 0.18) 100%);
+ background-attachment: fixed;
+  font-family: 'Roboto';
+  color: #000000;
+  max-width: 960px;
+  margin: 100px auto;
+  padding: 10px;
+  float: none;
+  align-items: center; 
+
+}
+header {
+
+  position: fixed;
+  top: 0%;
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome {
+  margin: 100px auto;
+  
+}
+
+.welcome a {
+  color: white;
+  text-decoration: none;
+  background: #9035d5;
+  padding: 10px;
+  border-radius: 10px;
+ position: relative;
+ top: 100%;
+ justify-content: space-between;
+ margin-right: 60px;
+ margin-left: 60px
+ 
+  
+}
+
+.welcome a:hover {
+  background-color: #6c299e;
+
+}
+form {
+  max-width: 500px;
+  justify-content: space-between;
+  text-align: center;
+  margin: 100px auto;
+}
+.welcome {
+  text-align: center;
+
+}
+input, textarea {
+  display: block;
+  margin: 16px 0;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-family: 'Roboto';
+}
+textarea {
+  min-height:200px;
+}
+
+.panel {
+  
+  margin: 0px;
+  padding: 10px;
+  min-width: 36%;
+  max-width: 96%;
+  min-height: 700px;
+  max-height: 10000px;
+  background-color: #ffffff42;
+
+  justify-content: center;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.user.highlight {
+  background-color: rgb(141, 214, 129);
+}
+
+div.answers label { 
+  display: flex; 
+  align-items: center; 
+  margin: 10px; }
+
+div.answers input { 
+  margin-right: 5px; 
+  width: 20px; 
+  height: 20px; }
+  
+
+  .question {
+    background-color: #e6c6fe2a;
+    border-radius: 10px;
+  }
+
+
+button {
+  color: white;
+  text-decoration: none;
+  background: #9035d5;
+  padding: 10px;
+  border-radius: 10px;
+ position: relative;
+
+ justify-content: space-between;
+ margin-right: 60px;
+ margin-left: 60px;
+ border: none !important;
+} 
+
+button:hover{
+  background-color: #6c299e;
+} 
+
+.users {
+  margin-left: 40px;
+}
+
+input{
+  border-radius: 10px;
+  margin-left: 40%;
+  margin-right: 10% ;
+width: auto;
+
+}
+
+.create input {
+
+  border-radius: 10px;
+  margin-left: 0%;
+  margin-right: 0% ;
+width: auto;
+
+}
+
+.contact-details{
+  position: relative;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 2%;
+  padding: auto;
+  
+  border-radius: 10px;
+  
+
+
+}
+
+.contact-details {
+  background-color: #edd5ff; 
+  border-radius: 10px; 
+  padding: 2%; 
+  padding-left: 0%;
+  padding-right: 0%;
+
+  margin-left: 18%;
+  
+ 
+}
+
+.contact-details h4 {
+  margin-top: 0; 
+  color: #333; 
+}
+
+.contact-details p {
+  margin: 5px 0; 
+  color: #555; 
+}
+
+.contact-details p strong {
+  color: #333; 
+}
+
+.contact-details span {
+  display: inline-block; 
+  margin-top: 10px; 
+  padding: 5px 10px; 
+  background-color: #f44336; 
+  color: white;
+  border-radius: 5px; 
+  cursor: pointer; 
+  position: absolute;
+  right: 0%;
+  top: 0%;
+ 
+}
+
+.contact-details span:hover {
+  background-color: #d32f2f; 
+}
+
+
+.create{
+  width: 20%;
+}
+
+.error{
+  color: red;
+  padding: 2%;
+  border: 2px solid;
+  border-color: red;
+  border-radius: 10px;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+
+
+header {
+ 
+  color: white;
+  padding: 10px 0;
+
+}
+
+.navbar {
+
+
+
+  min-width: 235%;
+  max-width: 96%;
+  min-height: 4%;
+  max-height: 10000px;
+  background-color: #46005d42;
+  float:none;
+
+
+  
+}
+
+.navbar h1 {
+  
+  position: relative;
+
+  left: 0%;
+  text-decoration: none;
+}
+
+.nav {
+  position: relative;
+  right: 0%;
+  top: 3%;
+}
+
+.linki{
+
+  text-decoration: none;
+  position: relative;
+  margin: 3%;
+
+  border-radius: 10px;
+  border: 2px solid;
+  padding: 3%;
+  right: 25%;
+  top:20px
+
+}
+
+.linki1{
+
+  text-decoration: none;
+  position: relative;
+  left: 0%;
+
+
+}
